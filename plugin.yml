@@ -1,0 +1,128 @@
+name: UtriXCore
+main: UtriXDevelopers\UtriX 
+api: 5.0.0
+author: oPinqz - UtriX Founder, Project Management, SeniorDeveloper
+version: 5.5.0
+description: UtriXCore, UtriX Main System., The Destroyer Of CloudyMC
+commands:
+  rank:
+    description: UtriX Player Control Commands
+    permission: utrix.founders
+  staff:
+    description: Staff Command
+    permission: utrix.staff
+  report:
+    description: Report command
+    permission: utrix.report
+  uban:
+    description: Ban Command
+    permission: utrix.staff
+  build:
+    description: Build Command
+    permission: utrix.highstaff
+  hub:
+    description: Hub Command
+    permission: utrix.hub
+  lobby:
+    description: Hub/Lobby Command
+    permission: utrix.hub
+  fly:
+    description: Fly Command For Bought Ranks
+    permission: utrix.ranksfly
+  umute: 
+    description: Mute Command
+    permission: utrix.staff
+  unmute:
+    description: UnMute Command
+    permission: utrix.staff
+  uworldtp:
+    description: Teleport to Another Game Server
+    permission: utrix.servers
+  link:
+    description: Linking Your Discord Account
+    permission: utrix.link
+  setucoins:
+    description: Setting UCoins For Players
+    permission: utrix.ucoins
+  uemerald:
+    description: Purchase UEmerald Using UCoins
+    permission: utrix.meow
+  setuemeralds:
+    description: Setting UEmeralds For Players
+    permission: utrix.ucoins
+  rules:
+    description: See the Rules of the Server
+    permission: utrix.report
+  setjoinmsg:
+    description: Set a Custom Join Message
+    permission: utrix.ranksfly
+  setleavemsg:
+    description: Set Custom Leave Message
+    permission: utrix.ranksfly
+  clan:
+    description: UtriX Clan Commands
+    permission: utrix.meow
+  ping:
+    description: Ping Command By oPinqz
+    permission: utrix.meow  
+  getusc:
+    description: Getting Your Special UtriX Security Code
+    permission: utrix.meow
+  suggest:
+    description: Send A Suggestion to UtriX Staff Team
+    permission: utrix.meow
+  unspectate:
+    description: UNSpectate for UtriX Staff
+    permission: utrix.staff
+  protection:
+    description: Protection Command For UtriX Protection Spawn System
+    permission: utrix.highstaff
+
+  
+  
+permissions:
+  utrix.founders:
+    description: Founders perm
+    default: op
+  utrix.staff:
+    description: Staff Perms
+    default: op
+  utrix.report:
+    description: Report
+    default: true
+  utrix.logs:
+    description: logs
+    default: op
+  utrix.build:
+    description: build
+    default: false
+  utrix.heart:
+    description: heart particle
+    default: false
+  utrix.flame:
+    description: flame particle
+    default: false
+  utrix.redstone:
+    description: redstone particle
+    default: false
+  utrix.hub:
+    descritption: hub
+    default: true
+  utrix.ranksfly:
+    description: RanksFly
+    default: op
+  utrix.highstaff:
+    description: highstaff
+    default: op
+  utrix.servers:
+    description: Hmm
+    default: true
+  utrix.link:
+    default: true
+  utrix.ucoins:
+    default: op
+  utrix.meow:
+    default: true
+
+
+
