@@ -1,9 +1,9 @@
 name: UtriXCore
 main: UtriXDevelopers\UtriX 
-api: 5.0.0
-author: oPinqz - UtriX Founder, Project Management, SeniorDeveloper
+api: 4.0.0
+author: oPinqz
 version: 5.5.0
-description: UtriXCore, UtriX Main System., The Destroyer Of CloudyMC
+description: UtriXCore, UtriX Main System
 commands:
   rank:
     description: UtriX Player Control Commands
