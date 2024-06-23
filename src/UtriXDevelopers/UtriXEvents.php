@@ -449,7 +449,7 @@ class UtriXEvents implements Listener
 		return $pass;
 	}
 
-	// DDOS Protection, Fuck CloudyMC
+	
 
 	public function CheckBan(PlayerLoginEvent $e){
 		
